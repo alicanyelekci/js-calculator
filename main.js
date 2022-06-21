@@ -85,9 +85,9 @@ class Calculator {
             if (this.operation != null){
                 this.previousOperandTextElement.innerText = `${this.getDisplayNumber(this.previousOperand)} ${this.operation}`
             }
-        }
-        else {
-            this.previousOperandTextElement.innerText = ''
+            else {
+                this.previousOperandTextElement.innerText = ''
+            }
         }
     }
 }
